@@ -1,0 +1,345 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+.container {
+    max-width: 990px;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.nav {
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.nav-ul a {
+    color: #1D1F2E;
+    margin-left: 30px;
+    text-decoration: none;
+    font-family: 'Karla';
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.cart {
+    border-bottom: 1px solid rgba(162, 95, 75, 0.3);
+    height: 25px;
+}
+
+.cart-p1 {
+    font-family: 'Karla';
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    margin-right: 8px;
+}
+
+.cart-p2 {
+    font-family: 'Karla';
+    font-size: 11px;
+    color: #FFFFFF;
+    background: #1D1F2E;
+    border-radius: 9px;
+    width: 20px;
+    height: 18px;
+}
+
+.header-bg {
+    background: #050827;
+    height: 530px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.header-bg2 {
+    background: url(../img/bg.png);
+    height: 530px;
+    width: 940px;
+    margin: auto;
+}
+
+.header-bg2 p,
+h1 {
+    text-align: center;
+}
+
+.bg2-title {
+    padding-top: 159px;
+    font-family: 'Karla';
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.bg2-h1 {
+    margin-top: 10px;
+    font-family: 'Karla';
+    font-size: 47px;
+    color: #FFFFFF;
+}
+
+.bg2-text {
+    font-family: 'Karla';
+    font-size: 17px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 48px;
+}
+
+.bg2-button {
+    font-family: 'Karla';
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    box-shadow: 0px 2px 6px rgba(29, 31, 46, 0.1);
+    Width: 231px;
+    Height: 18px;
+}
+
+.intro-h4 {
+    font-family: 'Karla';
+    font-size: 28px;
+    line-height: 40px;
+    color: #1D1F2E;
+    margin-top: 123px;
+}
+
+.intro-text {
+    font-family: 'Karla';
+    line-height: 28px;
+    color: rgba(29, 31, 46, 0.7);
+    margin-top: 16px;
+}
+
+.intro-title {
+    padding-top: 21px;
+    font-family: 'Karla';
+    font-size: 15px;
+    color: #A25F4B;
+    border-bottom: 1px solid rgba(162, 95, 75, 0.2);
+    width: 133px;
+    margin: auto;
+}
+
+.featured {
+    margin-top: 98px;
+    margin-bottom: 100px;
+}
+
+.featured p {
+    font-family: 'Karla';
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.coffe-title {
+    margin-top: 35px;
+    font-family: 'Karla';
+    font-size: 20px;
+    color: #1D1F2E;
+}
+
+.price {
+    font-family: 'Karla';
+    color: rgba(29, 31, 46, 0.7);
+    margin-top: 5px;
+}
+
+.price1 {
+    font-family: 'Karla';
+    font-size: 19px;
+    color: #A25F4B;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.price2 {
+    font-family: 'Karla';
+    text-decoration-line: line-through;
+    color: rgba(29, 31, 46, 0.4);
+    margin-top: 5px;
+}
+
+.premium-title {
+    font-family: 'Karla';
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    margin-bottom: 14px;
+}
+
+.premium-h4 {
+    font-family: 'Karla';
+    font-size: 36px;
+    line-height: 50px;
+    color: #1D1F2E;
+    margin-bottom: 15px;
+}
+
+.premium-text {
+    font-family: 'Karla';
+    line-height: 28px;
+    color: rgba(29, 31, 46, 0.7);
+    margin-bottom: 25px;
+}
+
+.premium-btn {
+    font-family: 'Karla';
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #1D1F2E;
+    width: 173px;
+    height: 36px;
+}
+
+.midle-bg {
+    background: url(../img/midle.png) center/cover;
+    margin-top: 130px;
+    height: 340px;
+    max-width: 100%;
+    margin-bottom: 100px;
+}
+
+.outro-p1 {
+    font-family: 'Karla';
+    font-size: 20px;
+    line-height: 32px;
+    color: #1D1F2E;
+    margin-top: 29px;
+}
+
+.outro-p2 {
+    font-family: 'Karla';
+    line-height: 28px;
+    color: rgba(29, 31, 46, 0.7);
+    margin-top: 10px;
+}
+
+.outro-p3 {
+    margin-top: 16px;
+    font-family: 'Karla';
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+
+.footer-bg {
+    background: #1D1F2E;
+    height: 327px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    margin-top: 200px;
+}
+
+.footer-title p {
+    font-family: 'Karla';
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.footer-h3 {
+    font-family: 'Karla';
+    font-size: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.footer-btn1 {
+    font-family: 'Karla';
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #2F303E;
+    background: none;
+    width: 350px;
+    height: 54px;
+}
+
+.footer-btn2 {
+    font-family: 'Karla';
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(29, 31, 46, 0.1);
+    width: 129px;
+    height: 54px;
+    margin-left: 10px;
+}
+
+.footer2-p1 {
+    font-family: 'Karla';
+    font-size: 14px;
+    color: rgba(29, 31, 46, 0.7);
+    margin-top: 22px;
+}
+
+.footer2-p2 {
+    font-family: 'Karla';
+    font-size: 14px;
+    color: rgba(29, 31, 46, 0.3);
+    margin-top: 56px;
+}
+
+.footer2-menu {
+    font-family: 'Karla';
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    margin-bottom: 10px;
+}
+
+.footer-ul a {
+    margin-top: 10px;
+    font-family: 'Karla';
+    font-size: 13px;
+    color: rgba(29, 31, 46, 0.7);
+    text-decoration: none;
+    display: block;
+}
+
+.footer-outro-p {
+    margin-top: 10px;
+    font-family: 'Karla';
+    font-size: 13px;
+    color: rgba(29, 31, 46, 0.7);
+    text-decoration: none;
+    display: block;
+}
+
+.email {
+    font-family: 'Karla';
+    font-size: 23px;
+    color: #1D1F2E;
+    margin-top: 16px;
+    margin-bottom: -8px;
+}
